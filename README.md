@@ -449,16 +449,176 @@ owners and staff run the business on.
   </a>
 </p>
 
+<!-- ═══════════════════════════════════════════════════════════════
+     CONTRIBUTION ACTIVITY
+     ═══════════════════════════════════════════════════════════ -->
+
 <h2 align="center">📈 Contribution Activity</h2>
 
 <p align="center">
-  <img src="https://ghchart.rshah.org/00D9FF/TechieTojin" width="90%" alt="TechieTojin contribution chart" />
+  <i>Building, shipping, learning — one commit at a time.</i>
 </p>
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:00D9FF,100:005577&section=header" width="100%" alt="divider" />
+<!-- ═══════════════ ACTIVITY GRAPH ═══════════════ -->
 
+<p align="center">
+  <a href="https://github.com/TechieTojin">
+    <img
+      src="https://github-readme-activity-graph.vercel.app/graph?username=TechieTojin&bg_color=0D1117&color=00D9FF&line=00D9FF&point=FFFFFF&area=true&area_color=005577&hide_border=true&custom_title=TechieTojin%20Contribution%20Activity"
+      width="96%"
+      alt="TechieTojin Contribution Activity"
+    />
+  </a>
+</p>
+
+<br/>
+
+<!-- ═══════════════ CONTRIBUTION CALENDAR ═══════════════ -->
+
+<h3 align="center">🔥 Contribution Calendar</h3>
+
+<p align="center">
+  <a href="https://github.com/TechieTojin">
+    <img
+      src="https://ghchart.rshah.org/00D9FF/TechieTojin"
+      width="94%"
+      alt="TechieTojin GitHub Contribution Calendar"
+    />
+  </a>
+</p>
+
+<br/>
+
+<!-- ═══════════════ STREAK STATS ═══════════════ -->
+
+<h3 align="center">⚡ Coding Streak</h3>
+
+<p align="center">
+  <a href="https://github.com/TechieTojin">
+    <img
+      src="https://streak-stats.demolab.com?user=TechieTojin&theme=transparent&hide_border=true&background=0D1117&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF&sideLabels=FFFFFF&dates=8B949E&sideNums=FFFFFF&currStreakNum=FFFFFF"
+      alt="TechieTojin GitHub Streak"
+    />
+  </a>
+</p>
+
+<br/>
+
+<!-- ═══════════════ DEVELOPER BADGES ═══════════════ -->
+
+<p align="center">
+  <img
+    src="https://img.shields.io/badge/⚡%20Build-Ship-Learn-00D9FF?style=for-the-badge&labelColor=0D1117"
+    alt="Build Ship Learn"
+  />
+  &nbsp;
+  <img
+    src="https://img.shields.io/badge/💻%20Focus-Full--Stack-00D9FF?style=for-the-badge&labelColor=0D1117"
+    alt="Full Stack"
+  />
+  &nbsp;
+  <img
+    src="https://img.shields.io/badge/🧠%20Building-AI%2FML-00D9FF?style=for-the-badge&labelColor=0D1117"
+    alt="AI ML"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="https://img.shields.io/badge/Frontend-React%20%7C%20React%20Native-00D9FF?style=flat-square&labelColor=0D1117"
+    alt="Frontend"
+  />
+  <img
+    src="https://img.shields.io/badge/Backend-Node.js%20%7C%20Express-00D9FF?style=flat-square&labelColor=0D1117"
+    alt="Backend"
+  />
+  <img
+    src="https://img.shields.io/badge/Language-TypeScript%20%7C%20Python-00D9FF?style=flat-square&labelColor=0D1117"
+    alt="Languages"
+  />
+</p>
+
+<br/>
+
+<!-- ═══════════════ TROPHIES ═══════════════ -->
+
+<h3 align="center">🏆 GitHub Achievements</h3>
+
+<p align="center">
+  <a href="https://github.com/TechieTojin">
+    <img
+      src="https://github-profile-trophy.vercel.app/?username=TechieTojin&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=7"
+      width="96%"
+      alt="TechieTojin GitHub Trophies"
+    />
+  </a>
+</p>
+
+<br/>
+
+<!-- ═══════════════ PROFILE STATS ═══════════════ -->
+
+<h3 align="center">📊 Development Stats</h3>
+
+<p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=TechieTojin&show_icons=true&count_private=true&include_all_commits=true&theme=nord&hide_border=true&border_color=00D9FF&title_color=00D9FF&icon_color=00D9FF&text_color=FFFFFF&bg_color=0D1117"
+    height="180"
+    alt="TechieTojin GitHub Stats"
+  />
+
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=TechieTojin&layout=compact&langs_count=8&theme=nord&hide_border=true&border_color=00D9FF&title_color=00D9FF&text_color=FFFFFF&bg_color=0D1117"
+    height="180"
+    alt="TechieTojin Top Languages"
+  />
+</p>
+
+<br/>
+
+<!-- ═══════════════ PROFILE METRICS ═══════════════ -->
+
+<p align="center">
+  <img
+    src="https://komarev.com/ghpvc/?username=TechieTojin&label=PROFILE+VIEWS&color=00D9FF&style=for-the-badge"
+    alt="Profile Views"
+  />
+
+  <a href="https://github.com/TechieTojin?tab=followers">
+    <img
+      src="https://img.shields.io/github/followers/TechieTojin?label=FOLLOWERS&style=for-the-badge&color=00D9FF&labelColor=0D1117&logo=github"
+      alt="GitHub Followers"
+    />
+  </a>
+
+  <a href="https://github.com/TechieTojin?tab=repositories">
+    <img
+      src="https://img.shields.io/badge/REPOSITORIES-41-00D9FF?style=for-the-badge&labelColor=0D1117&logo=github"
+      alt="Repositories"
+    />
+  </a>
+</p>
+
+<br/>
+
+<!-- ═══════════════ CLOSING ═══════════════ -->
+
+<p align="center">
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1200&color=00D9FF&center=true&vCenter=true&width=700&lines=Code.+Build.+Ship.+Improve.;Turning+ideas+into+production-ready+software.;Full-Stack+%2B+AI%2FML+Engineer.;Always+learning.+Always+building."
+    alt="Developer Typing Animation"
+  />
+</p>
+
+<br/>
+
+<img
+  src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:00D9FF,100:005577&section=header"
+  width="100%"
+  alt="divider"
+/>
 <!-- ═══════════════════════════════════════════════════════════════
      CONNECT
      ═══════════════════════════════════════════════════════════ -->
