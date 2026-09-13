@@ -18,14 +18,25 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=TechieTojin&label=Profile%20Views&color=00D9FF&style=for-the-badge" alt="Profile views" />
-  <a href="https://github.com/TechieTojin?tab=followers">
-    <img src="https://img.shields.io/github/followers/TechieTojin?label=Followers&style=for-the-badge&color=00D9FF&labelColor=0D1117&logo=github&logoColor=FFFFFF" alt="GitHub followers" />
-  </a>
+  <img 
+    src="https://komarev.com/ghpvc/?username=TechieTojin&label=PROFILE%20VIEWS&color=4285F4&style=for-the-badge"
+    height="32"
+    alt="TechieTojin Profile Views"
+  />
+
   <a href="https://github.com/TechieTojin?tab=repositories">
-    <img src="https://img.shields.io/badge/Repositories-41-00D9FF?style=for-the-badge&labelColor=0D1117&logo=github&logoColor=FFFFFF" alt="Repositories" />
+    <img 
+      src="https://img.shields.io/badge/Repositories-41-4285F4?style=for-the-badge&labelColor=0D1117&logo=github&logoColor=FFFFFF"
+      height="32"
+      alt="Repositories"
+    />
   </a>
-  <img src="https://img.shields.io/badge/Bengaluru-India-00D9FF?style=for-the-badge&labelColor=0D1117&logo=googlemaps&logoColor=00D9FF" alt="Location" />
+
+  <img 
+    src="https://img.shields.io/badge/Bengaluru-India-4285F4?style=for-the-badge&labelColor=0D1117&logo=googlemaps&logoColor=4285F4"
+    height="32"
+    alt="Bengaluru, India"
+  />
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:00D9FF,100:005577&section=header" width="100%" alt="divider" />
@@ -525,7 +536,7 @@ owners and staff run the business on.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Primary%20Languages-Python%20%C2%B7%20TypeScript%20%C2%B7%20JavaScript%20%C2%B7%20C%20%C2%B7%20HTML-00D9FF?style=for-the-badge&labelColor=0D1117" alt="Primary languages" />
+  <img src="https://img.shields.io/badge/Primary%20Languages-Python%20%C2%B7%20Java%20%C2%B7%20C%20%C2%B7%20C%2B%2B%20%C2%B7%20JavaScript%20%C2%B7%20TypeScript%20%C2%B7%20SQL%20%C2%B7%20HTML%20%C2%B7%20CSS-4285F4?style=for-the-badge&labelColor=0D1117" alt="Primary Languages" />
 </p>
 
 <p align="center">
@@ -547,10 +558,12 @@ owners and staff run the business on.
 
 <p align="center">
   <a href="https://github.com/TechieTojin">
-    <img src="https://streak-stats.demolab.com?user=TechieTojin&theme=nord&hide_border=true&background=0D1117&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF&sideLabels=FFFFFF&dates=8B949E&sideNums=FFFFFF&currStreakNum=FFFFFF" alt="TechieTojin GitHub Streak" />
+    <img
+      src="https://streak-stats.demolab.com?user=TechieTojin&theme=transparent&hide_border=true&border_radius=12&background=0D1117&ring=4285F4&fire=FBBC05&currStreakLabel=4285F4&sideLabels=8B949E&dates=8B949E&sideNums=FFFFFF&currStreakNum=FFFFFF"
+      alt="TechieTojin GitHub Streak"
+    />
   </a>
 </p>
-
 <br/>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:00D9FF,100:005577&section=header" width="100%" alt="divider" />
