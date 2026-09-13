@@ -430,18 +430,29 @@ owners and staff run the business on.
   <img src="https://streak-stats.demolab.com?user=TechieTojin&theme=nord&border=00D9FF&background=0D1117&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF&sideLabels=FFFFFF&dates=FFFFFF&sideNums=FFFFFF&currStreakNum=FFFFFF" alt="GitHub streak stats" />
 </p>
 
-<h2 align="center">🏆 GitHub Trophies</h2>
+<h2 align="center">🏆 Achievements</h2>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Public%20Repositories-41-00D9FF?style=for-the-badge&labelColor=0D1117&logo=github&logoColor=00D9FF" alt="Repositories" />
+  <img src="https://img.shields.io/badge/Hackathons-5%20Entered-00D9FF?style=for-the-badge&labelColor=0D1117&logo=devpost&logoColor=00D9FF" alt="Hackathons" />
+  <img src="https://img.shields.io/badge/1st%20Place%20Finishes-3-00D9FF?style=for-the-badge&labelColor=0D1117&logo=trophy&logoColor=00D9FF" alt="First places" />
+  <img src="https://img.shields.io/badge/Published%20Papers-2-00D9FF?style=for-the-badge&labelColor=0D1117&logo=googlescholar&logoColor=00D9FF" alt="Papers" />
+</p>
+
+<!-- Trophy card. Served by a shared free Vercel instance that is frequently
+     rate-limited by the GitHub API. If it shows as a broken image, the permanent
+     fix is to deploy your own copy of github-profile-trophy to Vercel and swap
+     the hostname below. -->
+<p align="center">
   <a href="https://github.com/TechieTojin">
-    <img src="https://github-profile-trophy.vercel.app/?username=TechieTojin&theme=nord&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=7" alt="GitHub trophies" />
+    <img src="https://github-profile-trophy.vercel.app/?username=TechieTojin&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=7&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C" alt="GitHub trophies" />
   </a>
 </p>
 
 <h2 align="center">📈 Contribution Activity</h2>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=TechieTojin&bg_color=0D1117&color=00D9FF&line=00D9FF&point=FFFFFF&area=true&hide_border=false&border_color=00D9FF&title_color=00D9FF" alt="Contribution activity graph" />
+  <img src="https://ghchart.rshah.org/00D9FF/TechieTojin" width="90%" alt="TechieTojin contribution chart" />
 </p>
 
 <br/>
