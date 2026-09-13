@@ -14,16 +14,16 @@
 
 <!-- ═══════════════ OPEN TO WORK + PROFILE BADGES ═══════════════ -->
 <p align="center">
-  <img src="https://img.shields.io/badge/%F0%9F%9F%A2%20OPEN%20TO%20WORK-SDE%20Roles%20%7C%20Full--Stack%20%2B%20AI-00D9FF?style=for-the-badge&labelColor=0D1117" alt="Open to work" />
+  <img src="https://img.shields.io/badge/OPEN%20TO%20WORK-SDE%20Roles%20%7C%20Full--Stack%20%2B%20AI-00D9FF?style=for-the-badge&labelColor=0D1117" alt="Open to work" />
 </p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=TechieTojin&label=Profile%20Views&color=00D9FF&style=for-the-badge" alt="Profile views" />
   <a href="https://github.com/TechieTojin?tab=followers">
-    <img src="https://img.shields.io/github/followers/TechieTojin?label=Followers&style=for-the-badge&color=00D9FF&labelColor=0D1117&logo=github" alt="GitHub followers" />
+    <img src="https://img.shields.io/github/followers/TechieTojin?label=Followers&style=for-the-badge&color=00D9FF&labelColor=0D1117&logo=github&logoColor=FFFFFF" alt="GitHub followers" />
   </a>
   <a href="https://github.com/TechieTojin?tab=repositories">
-    <img src="https://img.shields.io/badge/Repositories-Explore-00D9FF?style=for-the-badge&labelColor=0D1117&logo=github" alt="Repositories" />
+    <img src="https://img.shields.io/badge/Repositories-41-00D9FF?style=for-the-badge&labelColor=0D1117&logo=github&logoColor=FFFFFF" alt="Repositories" />
   </a>
   <img src="https://img.shields.io/badge/Bengaluru-India-00D9FF?style=for-the-badge&labelColor=0D1117&logo=googlemaps&logoColor=00D9FF" alt="Location" />
 </p>
@@ -121,9 +121,9 @@ const tojin = {
   ],
 
   launchedProjects: [
-    { name: "FaceVerification",       about: "Real-time face recognition & verification — OpenCV + DeepFace" },
-    { name: "Crop-Genie",             about: "AI-powered solution supporting smallholder farmers" },
-    { name: "Bus-Reservation-System", about: "End-to-end bus ticket booking & reservation management" }
+    { name: "FaceVerification",       lang: "Python",     about: "Real-time face recognition & verification — OpenCV + DeepFace" },
+    { name: "Crop-Genie",             lang: "TypeScript", about: "AI-powered solution supporting smallholder farmers" },
+    { name: "Bus-Reservation-System", lang: "C",          about: "End-to-end bus ticket booking & reservation management" }
   ],
 
   publications: 2,
@@ -149,8 +149,8 @@ const tojin = {
 <h2 align="center">💼 What I'm Building at Simplify3x</h2>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Associate%20Software%20Engineer-June%202026%20→%20Present-00D9FF?style=for-the-badge&labelColor=0D1117" alt="Current role" />
-  <img src="https://img.shields.io/badge/Software%20Engineer%20Intern-Feb%202026%20→%20June%202026-999999?style=for-the-badge&labelColor=0D1117" alt="Internship" />
+  <img src="https://img.shields.io/badge/Associate%20Software%20Engineer-June%202026%20%E2%86%92%20Present-00D9FF?style=for-the-badge&labelColor=0D1117" alt="Current role" />
+  <img src="https://img.shields.io/badge/Software%20Engineer%20Intern-Feb%202026%20%E2%86%92%20June%202026-999999?style=for-the-badge&labelColor=0D1117" alt="Internship" />
 </p>
 
 A **vertically integrated grocery retail platform** — one Express/MongoDB API and one
@@ -185,100 +185,185 @@ owners and staff run the business on.
 <h2 align="center">🚀 Featured Projects</h2>
 
 <!-- ─────────── PROJECT 1 ─────────── -->
-### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" width="22" align="top" alt="" />&nbsp; FaceVerification
+<h3 align="center">🧠 &nbsp;FaceVerification</h3>
+
+<p align="center">
+  <a href="https://github.com/TechieTojin/FaceVerification">
+    <img src="./FaceVerification.png" width="92%" alt="FaceVerification — real-time face detection interface with live camera feed, reference image matching and verification confidence" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=FFFFFF&labelColor=0D1117" alt="Python" />
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=FFFFFF&labelColor=0D1117" alt="OpenCV" />
+  <img src="https://img.shields.io/badge/DeepFace-00D9FF?style=for-the-badge&labelColor=0D1117" alt="DeepFace" />
+  <img src="https://img.shields.io/badge/Computer%20Vision-00D9FF?style=for-the-badge&labelColor=0D1117" alt="Computer Vision" />
+</p>
 
 > **A Python-based face recognition system that uses OpenCV for real-time video capture
 > and DeepFace to compare a live camera feed against a reference image.** Real-time
 > verification feedback — the computer-vision groundwork behind my published deepfake research.
 
-<p align="center">
-  <a href="https://github.com/TechieTojin/FaceVerification">
-    <img src="https://opengraph.githubassets.com/1/TechieTojin/FaceVerification" width="85%" alt="FaceVerification repository" />
-  </a>
-</p>
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<div align="center">
+**✨ &nbsp;Highlights**
+
+`→` &nbsp;Live webcam capture with frame-by-frame face detection
+
+`→` &nbsp;Embedding-based identity matching, not pixel comparison
+
+`→` &nbsp;Instant verified / not-verified feedback on the video stream
+
+`→` &nbsp;Swappable DeepFace backends for accuracy-vs-speed tuning
+
+</td>
+<td width="50%" valign="top">
+
+**🧱 &nbsp;Architecture**
 
 | Layer | Technology |
 | :--- | :--- |
-| Language | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="16" align="top" alt="" /> &nbsp;Python |
-| Computer Vision | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" width="16" align="top" alt="" /> &nbsp;OpenCV |
-| Face Recognition | 🧠 &nbsp;DeepFace |
+| Language | Python |
+| Vision | OpenCV |
+| Recognition | DeepFace |
 | Domain | Deep Learning · AI/ML |
-| Tooling | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="16" align="top" alt="" /> &nbsp;Git · <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="16" align="top" alt="" /> &nbsp;VS Code |
+| Tooling | Git · VS Code |
 
-</div>
+</td>
+</tr>
+</table>
 
 <p align="center">
   <a href="https://github.com/TechieTojin/FaceVerification">
-    <img src="https://img.shields.io/badge/Code-View%20Repository-00D9FF?style=for-the-badge&logo=github&logoColor=0D1117&labelColor=0D1117&color=00D9FF" alt="Code" />
+    <img src="https://img.shields.io/badge/View%20Source%20Code-00D9FF?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=0D1117&color=00D9FF" alt="Code" />
+  </a>
+  <img src="https://img.shields.io/github/last-commit/TechieTojin/FaceVerification?style=for-the-badge&label=Last%20Commit&labelColor=0D1117&color=005577" alt="Last commit" />
+</p>
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:00D9FF,100:005577&section=header" width="100%" alt="divider" />
+
+<!-- ─────────── PROJECT 2 ─────────── -->
+<h3 align="center">🌾 &nbsp;Crop-Genie</h3>
+
+<p align="center">
+  <a href="https://github.com/TechieTojin/Crop-Genie">
+    <img src="./Crop-Genie.png" width="92%" alt="Crop-Genie — AI crop advisory dashboard with health scoring, analytics charts and a companion mobile view" />
   </a>
 </p>
 
----
-
-<!-- ─────────── PROJECT 2 ─────────── -->
-### 🌾&nbsp; Crop-Genie
+<p align="center">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=FFFFFF&labelColor=0D1117" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=FFFFFF&labelColor=0D1117" alt="React" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=FFFFFF&labelColor=0D1117" alt="Node.js" />
+  <img src="https://img.shields.io/badge/AI%2FML-00D9FF?style=for-the-badge&labelColor=0D1117" alt="AI/ML" />
+</p>
 
 > **Crop Genie — AI solutions for smallholder farmers.**
 > Practical machine intelligence for users who don't have a data team: crop-level
 > guidance surfaced through a clean, low-friction TypeScript interface.
 
-<p align="center">
-  <a href="https://github.com/TechieTojin/Crop-Genie">
-    <img src="https://opengraph.githubassets.com/1/TechieTojin/Crop-Genie" width="85%" alt="Crop-Genie repository" />
-  </a>
-</p>
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<div align="center">
+**✨ &nbsp;Highlights**
+
+`→` &nbsp;AI-driven crop guidance aimed at low-resource farms
+
+`→` &nbsp;Typed end-to-end — TypeScript from UI down to the API layer
+
+`→` &nbsp;Designed for low-friction use on modest hardware and networks
+
+`→` &nbsp;Component-driven React front end over a REST backend
+
+</td>
+<td width="50%" valign="top">
+
+**🧱 &nbsp;Architecture**
 
 | Layer | Technology |
 | :--- | :--- |
-| Primary Language | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="16" align="top" alt="" /> &nbsp;TypeScript |
-| Frontend | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="16" align="top" alt="" /> &nbsp;React · <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="16" align="top" alt="" /> &nbsp;HTML · <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="16" align="top" alt="" /> &nbsp;CSS |
-| Backend | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="16" align="top" alt="" /> &nbsp;Node.js · <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="16" align="top" alt="" /> &nbsp;Express · REST APIs |
+| Language | TypeScript |
+| Frontend | React · HTML · CSS |
+| Backend | Node.js · Express · REST |
 | Intelligence | AI/ML · NLP |
-| Tooling | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="16" align="top" alt="" /> &nbsp;Git · <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" width="16" align="top" alt="" /> &nbsp;Postman · <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="16" align="top" alt="" /> &nbsp;VS Code |
+| Tooling | Git · Postman · VS Code |
 
-</div>
+</td>
+</tr>
+</table>
 
 <p align="center">
   <a href="https://github.com/TechieTojin/Crop-Genie">
-    <img src="https://img.shields.io/badge/Code-View%20Repository-00D9FF?style=for-the-badge&logo=github&logoColor=0D1117&labelColor=0D1117&color=00D9FF" alt="Code" />
+    <img src="https://img.shields.io/badge/View%20Source%20Code-00D9FF?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=0D1117&color=00D9FF" alt="Code" />
+  </a>
+  <img src="https://img.shields.io/github/last-commit/TechieTojin/Crop-Genie?style=for-the-badge&label=Last%20Commit&labelColor=0D1117&color=005577" alt="Last commit" />
+</p>
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:00D9FF,100:005577&section=header" width="100%" alt="divider" />
+
+<!-- ─────────── PROJECT 3 ─────────── -->
+<h3 align="center">🚌 &nbsp;Bus-Reservation-System</h3>
+
+<p align="center">
+  <a href="https://github.com/TechieTojin/Bus-Reservation-System">
+    <img src="./Bus-Reservation-System.png" width="92%" alt="Bus-Reservation-System — console booking interface with route table, seat map and confirmation panel" />
   </a>
 </p>
 
----
-
-<!-- ─────────── PROJECT 3 ─────────── -->
-### 🚌&nbsp; Bus-Reservation-System
+<p align="center">
+  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=FFFFFF&labelColor=0D1117" alt="C" />
+  <img src="https://img.shields.io/badge/Systems%20Programming-00D9FF?style=for-the-badge&labelColor=0D1117" alt="Systems Programming" />
+  <img src="https://img.shields.io/badge/File%20I%2FO-00D9FF?style=for-the-badge&labelColor=0D1117" alt="File I/O" />
+  <img src="https://img.shields.io/badge/Data%20Structures-00D9FF?style=for-the-badge&labelColor=0D1117" alt="Data Structures" />
+</p>
 
 > **A comprehensive platform for managing bus services efficiently** — view available
 > buses, book tickets, cancel reservations and check booking status. Written in C: the
 > project where I learned how much of "simple CRUD" is actually state and edge cases.
 
-<p align="center">
-  <a href="https://github.com/TechieTojin/Bus-Reservation-System">
-    <img src="https://opengraph.githubassets.com/1/TechieTojin/Bus-Reservation-System" width="85%" alt="Bus-Reservation-System repository" />
-  </a>
-</p>
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<div align="center">
+**✨ &nbsp;Highlights**
+
+`→` &nbsp;Full booking lifecycle — search, reserve, cancel, verify
+
+`→` &nbsp;Seat inventory kept consistent across every operation
+
+`→` &nbsp;File-backed persistence with no database dependency
+
+`→` &nbsp;Manual memory and state handling, no framework safety net
+
+</td>
+<td width="50%" valign="top">
+
+**🧱 &nbsp;Architecture**
 
 | Layer | Technology |
 | :--- | :--- |
-| Language | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="16" align="top" alt="" /> &nbsp;C |
-| Interface | Console-based menu system |
-| Core Features | Bus listing · Ticket booking · Cancellation · Status check |
-| Data Handling | File-based persistence · Structs & arrays |
-| Tooling | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="16" align="top" alt="" /> &nbsp;Git · <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="16" align="top" alt="" /> &nbsp;GitHub · <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="16" align="top" alt="" /> &nbsp;VS Code |
+| Language | C |
+| Interface | Console menu system |
+| Core | Booking · Cancellation · Status |
+| Data | File persistence · Structs |
+| Tooling | Git · GitHub · VS Code |
 
-</div>
+</td>
+</tr>
+</table>
 
 <p align="center">
   <a href="https://github.com/TechieTojin/Bus-Reservation-System">
-    <img src="https://img.shields.io/badge/Code-View%20Repository-00D9FF?style=for-the-badge&logo=github&logoColor=0D1117&labelColor=0D1117&color=00D9FF" alt="Code" />
+    <img src="https://img.shields.io/badge/View%20Source%20Code-00D9FF?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=0D1117&color=00D9FF" alt="Code" />
   </a>
+  <img src="https://img.shields.io/github/last-commit/TechieTojin/Bus-Reservation-System?style=for-the-badge&label=Last%20Commit&labelColor=0D1117&color=005577" alt="Last commit" />
 </p>
 
 <br/>
@@ -297,7 +382,7 @@ owners and staff run the business on.
 
 <p align="center">
   <a href="https://github.com/TechieTojin?tab=repositories">
-    <img src="https://img.shields.io/badge/Browse%20all%2041%20repositories-00D9FF?style=for-the-badge&logo=github&logoColor=0D1117&labelColor=0D1117&color=00D9FF" alt="All repositories" />
+    <img src="https://img.shields.io/badge/Browse%20all%2041%20repositories-00D9FF?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=0D1117&color=00D9FF" alt="All repositories" />
   </a>
 </p>
 
@@ -327,7 +412,7 @@ owners and staff run the business on.
 <p align="center"><b>⚙️ &nbsp;Backend &amp; Infra</b><br/><sub>Node.js · Express.js · REST APIs · Mongoose · Docker</sub></p>
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=nodejs,express,mongoose,docker&theme=dark" alt="Backend and Infra" />
+    <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,docker&theme=dark" alt="Backend and Infra" />
   </a>
 </p>
 
@@ -383,13 +468,13 @@ owners and staff run the business on.
 <h2 align="center">🏅 Hackathons &amp; Honors</h2>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/🥇%201st%20Place-InnovateX%20RHAPSODY-00D9FF?style=for-the-badge&labelColor=0D1117" alt="InnovateX RHAPSODY" />
-  <img src="https://img.shields.io/badge/🥇%201st%20Place-Hack--4--Mini%202.0-00D9FF?style=for-the-badge&labelColor=0D1117" alt="Hack-4-Mini 2.0" />
-  <img src="https://img.shields.io/badge/🥇%201st%20Place-Code%20Hunter-00D9FF?style=for-the-badge&labelColor=0D1117" alt="Code Hunter" />
+  <img src="https://img.shields.io/badge/1st%20Place-InnovateX%20RHAPSODY-00D9FF?style=for-the-badge&labelColor=0D1117" alt="InnovateX RHAPSODY" />
+  <img src="https://img.shields.io/badge/1st%20Place-Hack--4--Mini%202.0-00D9FF?style=for-the-badge&labelColor=0D1117" alt="Hack-4-Mini 2.0" />
+  <img src="https://img.shields.io/badge/1st%20Place-Code%20Hunter-00D9FF?style=for-the-badge&labelColor=0D1117" alt="Code Hunter" />
 </p>
 <p align="center">
-  <img src="https://img.shields.io/badge/🥈%202nd%20Place-AMUHACKS%204.0-00D9FF?style=for-the-badge&labelColor=0D1117" alt="AMUHACKS 4.0" />
-  <img src="https://img.shields.io/badge/🌍%20Top%20100%20National-HACKHAZARD%2025-00D9FF?style=for-the-badge&labelColor=0D1117" alt="HACKHAZARD 25" />
+  <img src="https://img.shields.io/badge/2nd%20Place-AMUHACKS%204.0-00D9FF?style=for-the-badge&labelColor=0D1117" alt="AMUHACKS 4.0" />
+  <img src="https://img.shields.io/badge/Top%20100%20National-HACKHAZARD%2025-00D9FF?style=for-the-badge&labelColor=0D1117" alt="HACKHAZARD 25" />
 </p>
 
 <p align="center">
@@ -422,203 +507,56 @@ owners and staff run the business on.
 <h2 align="center">📊 GitHub Stats</h2>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=TechieTojin&show_icons=true&count_private=true&include_all_commits=true&theme=nord&border_color=00D9FF&title_color=00D9FF&icon_color=00D9FF&text_color=FFFFFF&bg_color=0D1117" alt="TechieTojin GitHub stats" height="180" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TechieTojin&layout=compact&langs_count=8&theme=nord&border_color=00D9FF&title_color=00D9FF&text_color=FFFFFF&bg_color=0D1117" alt="Top languages" height="180" />
+  <a href="https://github.com/TechieTojin?tab=repositories">
+    <img src="https://img.shields.io/badge/Public%20Repositories-41-00D9FF?style=for-the-badge&labelColor=0D1117&logo=github&logoColor=FFFFFF" alt="Repositories" />
+  </a>
+  <a href="https://github.com/TechieTojin?tab=followers">
+    <img src="https://img.shields.io/github/followers/TechieTojin?style=for-the-badge&label=Followers&labelColor=0D1117&color=00D9FF&logo=github&logoColor=FFFFFF" alt="Followers" />
+  </a>
+  <a href="https://github.com/TechieTojin?tab=stars">
+    <img src="https://img.shields.io/badge/Starred-11%20Repositories-00D9FF?style=for-the-badge&labelColor=0D1117&logo=github&logoColor=FFFFFF" alt="Starred" />
+  </a>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=TechieTojin&theme=nord&border=00D9FF&background=0D1117&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF&sideLabels=FFFFFF&dates=FFFFFF&sideNums=FFFFFF&currStreakNum=FFFFFF" alt="GitHub streak stats" />
-</p>
-
-<h2 align="center">🏆 Achievements</h2>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Public%20Repositories-41-00D9FF?style=for-the-badge&labelColor=0D1117&logo=github&logoColor=00D9FF" alt="Repositories" />
-  <img src="https://img.shields.io/badge/Hackathons-5%20Entered-00D9FF?style=for-the-badge&labelColor=0D1117&logo=devpost&logoColor=00D9FF" alt="Hackathons" />
-  <img src="https://img.shields.io/badge/1st%20Place%20Finishes-3-00D9FF?style=for-the-badge&labelColor=0D1117&logo=trophy&logoColor=00D9FF" alt="First places" />
+  <img src="https://img.shields.io/badge/Hackathons-5%20Entered-00D9FF?style=for-the-badge&labelColor=0D1117" alt="Hackathons" />
+  <img src="https://img.shields.io/badge/1st%20Place%20Finishes-3-00D9FF?style=for-the-badge&labelColor=0D1117" alt="First places" />
   <img src="https://img.shields.io/badge/Published%20Papers-2-00D9FF?style=for-the-badge&labelColor=0D1117&logo=googlescholar&logoColor=00D9FF" alt="Papers" />
 </p>
 
-<!-- Trophy card. Served by a shared free Vercel instance that is frequently
-     rate-limited by the GitHub API. If it shows as a broken image, the permanent
-     fix is to deploy your own copy of github-profile-trophy to Vercel and swap
-     the hostname below. -->
 <p align="center">
-  <a href="https://github.com/TechieTojin">
-    <img src="https://github-profile-trophy.vercel.app/?username=TechieTojin&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=7&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C" alt="GitHub trophies" />
-  </a>
+  <img src="https://img.shields.io/badge/Primary%20Languages-Python%20%C2%B7%20TypeScript%20%C2%B7%20JavaScript%20%C2%B7%20C%20%C2%B7%20HTML-00D9FF?style=for-the-badge&labelColor=0D1117" alt="Primary languages" />
 </p>
 
-<!-- ═══════════════════════════════════════════════════════════════
-     CONTRIBUTION ACTIVITY
-     ═══════════════════════════════════════════════════════════ -->
-
-<h2 align="center">📈 Contribution Activity</h2>
-
 <p align="center">
-  <i>Building, shipping, learning — one commit at a time.</i>
+  <img src="https://img.shields.io/badge/Frontend-React%20%7C%20React%20Native-00D9FF?style=flat-square&labelColor=0D1117" alt="Frontend" />
+  <img src="https://img.shields.io/badge/Backend-Node.js%20%7C%20Express-00D9FF?style=flat-square&labelColor=0D1117" alt="Backend" />
+  <img src="https://img.shields.io/badge/Language-TypeScript%20%7C%20Python-00D9FF?style=flat-square&labelColor=0D1117" alt="Languages" />
+  <img src="https://img.shields.io/badge/Focus-Full--Stack%20%2B%20AI%2FML-00D9FF?style=flat-square&labelColor=0D1117" alt="Focus" />
 </p>
-
-<br/>
-
-<!-- ═══════════════ ACTIVITY GRAPH ═══════════════ -->
-
-<p align="center">
-  <a href="https://github.com/TechieTojin">
-    <img
-      src="https://github-readme-activity-graph.vercel.app/graph?username=TechieTojin&bg_color=0D1117&color=00D9FF&line=00D9FF&point=FFFFFF&area=true&area_color=005577&hide_border=true&custom_title=TechieTojin%20Contribution%20Activity"
-      width="96%"
-      alt="TechieTojin Contribution Activity"
-    />
-  </a>
-</p>
-
-<br/>
 
 <!-- ═══════════════ CONTRIBUTION CALENDAR ═══════════════ -->
-
 <h3 align="center">🔥 Contribution Calendar</h3>
 
 <p align="center">
   <a href="https://github.com/TechieTojin">
-    <img
-      src="https://ghchart.rshah.org/00D9FF/TechieTojin"
-      width="94%"
-      alt="TechieTojin GitHub Contribution Calendar"
-    />
+    <img src="https://ghchart.rshah.org/00D9FF/TechieTojin" width="94%" alt="TechieTojin GitHub Contribution Calendar" />
   </a>
 </p>
 
-<br/>
-
 <!-- ═══════════════ STREAK STATS ═══════════════ -->
-
 <h3 align="center">⚡ Coding Streak</h3>
 
 <p align="center">
   <a href="https://github.com/TechieTojin">
-    <img
-      src="https://streak-stats.demolab.com?user=TechieTojin&theme=transparent&hide_border=true&background=0D1117&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF&sideLabels=FFFFFF&dates=8B949E&sideNums=FFFFFF&currStreakNum=FFFFFF"
-      alt="TechieTojin GitHub Streak"
-    />
+    <img src="https://streak-stats.demolab.com?user=TechieTojin&theme=nord&hide_border=true&background=0D1117&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF&sideLabels=FFFFFF&dates=8B949E&sideNums=FFFFFF&currStreakNum=FFFFFF" alt="TechieTojin GitHub Streak" />
   </a>
 </p>
 
 <br/>
 
-<!-- ═══════════════ DEVELOPER BADGES ═══════════════ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:00D9FF,100:005577&section=header" width="100%" alt="divider" />
 
-<p align="center">
-  <img
-    src="https://img.shields.io/badge/⚡%20Build-Ship-Learn-00D9FF?style=for-the-badge&labelColor=0D1117"
-    alt="Build Ship Learn"
-  />
-  &nbsp;
-  <img
-    src="https://img.shields.io/badge/💻%20Focus-Full--Stack-00D9FF?style=for-the-badge&labelColor=0D1117"
-    alt="Full Stack"
-  />
-  &nbsp;
-  <img
-    src="https://img.shields.io/badge/🧠%20Building-AI%2FML-00D9FF?style=for-the-badge&labelColor=0D1117"
-    alt="AI ML"
-  />
-</p>
-
-<p align="center">
-  <img
-    src="https://img.shields.io/badge/Frontend-React%20%7C%20React%20Native-00D9FF?style=flat-square&labelColor=0D1117"
-    alt="Frontend"
-  />
-  <img
-    src="https://img.shields.io/badge/Backend-Node.js%20%7C%20Express-00D9FF?style=flat-square&labelColor=0D1117"
-    alt="Backend"
-  />
-  <img
-    src="https://img.shields.io/badge/Language-TypeScript%20%7C%20Python-00D9FF?style=flat-square&labelColor=0D1117"
-    alt="Languages"
-  />
-</p>
-
-<br/>
-
-<!-- ═══════════════ TROPHIES ═══════════════ -->
-
-<h3 align="center">🏆 GitHub Achievements</h3>
-
-<p align="center">
-  <a href="https://github.com/TechieTojin">
-    <img
-      src="https://github-profile-trophy.vercel.app/?username=TechieTojin&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=7"
-      width="96%"
-      alt="TechieTojin GitHub Trophies"
-    />
-  </a>
-</p>
-
-<br/>
-
-<!-- ═══════════════ PROFILE STATS ═══════════════ -->
-
-<h3 align="center">📊 Development Stats</h3>
-
-<p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=TechieTojin&show_icons=true&count_private=true&include_all_commits=true&theme=nord&hide_border=true&border_color=00D9FF&title_color=00D9FF&icon_color=00D9FF&text_color=FFFFFF&bg_color=0D1117"
-    height="180"
-    alt="TechieTojin GitHub Stats"
-  />
-
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=TechieTojin&layout=compact&langs_count=8&theme=nord&hide_border=true&border_color=00D9FF&title_color=00D9FF&text_color=FFFFFF&bg_color=0D1117"
-    height="180"
-    alt="TechieTojin Top Languages"
-  />
-</p>
-
-<br/>
-
-<!-- ═══════════════ PROFILE METRICS ═══════════════ -->
-
-<p align="center">
-  <img
-    src="https://komarev.com/ghpvc/?username=TechieTojin&label=PROFILE+VIEWS&color=00D9FF&style=for-the-badge"
-    alt="Profile Views"
-  />
-
-  <a href="https://github.com/TechieTojin?tab=followers">
-    <img
-      src="https://img.shields.io/github/followers/TechieTojin?label=FOLLOWERS&style=for-the-badge&color=00D9FF&labelColor=0D1117&logo=github"
-      alt="GitHub Followers"
-    />
-  </a>
-
-  <a href="https://github.com/TechieTojin?tab=repositories">
-    <img
-      src="https://img.shields.io/badge/REPOSITORIES-41-00D9FF?style=for-the-badge&labelColor=0D1117&logo=github"
-      alt="Repositories"
-    />
-  </a>
-</p>
-
-<br/>
-
-<!-- ═══════════════ CLOSING ═══════════════ -->
-
-<p align="center">
-  <img
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1200&color=00D9FF&center=true&vCenter=true&width=700&lines=Code.+Build.+Ship.+Improve.;Turning+ideas+into+production-ready+software.;Full-Stack+%2B+AI%2FML+Engineer.;Always+learning.+Always+building."
-    alt="Developer Typing Animation"
-  />
-</p>
-
-<br/>
-
-<img
-  src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:00D9FF,100:005577&section=header"
-  width="100%"
-  alt="divider"
-/>
 <!-- ═══════════════════════════════════════════════════════════════
      CONNECT
      ═══════════════════════════════════════════════════════════ -->
@@ -630,13 +568,13 @@ owners and staff run the business on.
 
 <p align="center">
   <a href="https://www.linkedin.com/in/tojin-varkeysimson-664650286">
-    <img src="https://img.shields.io/badge/LinkedIn-Tojin%20Varkey%20Simson-00D9FF?style=for-the-badge&logo=linkedin&logoColor=0D1117&labelColor=0D1117&color=00D9FF" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-Tojin%20Varkey%20Simson-00D9FF?style=for-the-badge&logo=linkedin&logoColor=FFFFFF&labelColor=0D1117&color=00D9FF" alt="LinkedIn" />
   </a>
   <a href="mailto:tojinsimson28@gmail.com">
-    <img src="https://img.shields.io/badge/Email-tojinsimson28@gmail.com-00D9FF?style=for-the-badge&logo=gmail&logoColor=0D1117&labelColor=0D1117&color=00D9FF" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-tojinsimson28@gmail.com-00D9FF?style=for-the-badge&logo=gmail&logoColor=FFFFFF&labelColor=0D1117&color=00D9FF" alt="Email" />
   </a>
   <a href="https://github.com/TechieTojin">
-    <img src="https://img.shields.io/badge/GitHub-TechieTojin-00D9FF?style=for-the-badge&logo=github&logoColor=0D1117&labelColor=0D1117&color=00D9FF" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GitHub-TechieTojin-00D9FF?style=for-the-badge&logo=github&logoColor=FFFFFF&labelColor=0D1117&color=00D9FF" alt="GitHub" />
   </a>
 </p>
 
