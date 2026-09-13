@@ -187,13 +187,13 @@ owners and staff run the business on.
 <!-- ─────────── PROJECT 1 ─────────── -->
 ### <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" width="22" align="top" alt="" />&nbsp; FaceVerification
 
-> **Real-time face recognition and verification system using OpenCV and DeepFace.**
-> Live capture, face detection and embedding-based identity verification — the
-> computer-vision groundwork that feeds directly into my published deepfake research.
+> **A Python-based face recognition system that uses OpenCV for real-time video capture
+> and DeepFace to compare a live camera feed against a reference image.** Real-time
+> verification feedback — the computer-vision groundwork behind my published deepfake research.
 
 <p align="center">
   <a href="https://github.com/TechieTojin/FaceVerification">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=TechieTojin&repo=FaceVerification&theme=nord&border_color=00D9FF&title_color=00D9FF&icon_color=00D9FF&text_color=FFFFFF&bg_color=0D1117" alt="FaceVerification repo card" />
+    <img src="https://opengraph.githubassets.com/1/TechieTojin/FaceVerification" width="85%" alt="FaceVerification repository" />
   </a>
 </p>
 
@@ -220,13 +220,13 @@ owners and staff run the business on.
 <!-- ─────────── PROJECT 2 ─────────── -->
 ### 🌾&nbsp; Crop-Genie
 
-> **AI-powered solution designed to support smallholder farmers.**
-> Practical machine intelligence for users who don't have a data team — crop-level
-> guidance surfaced through a clean, low-friction interface.
+> **Crop Genie — AI solutions for smallholder farmers.**
+> Practical machine intelligence for users who don't have a data team: crop-level
+> guidance surfaced through a clean, low-friction TypeScript interface.
 
 <p align="center">
   <a href="https://github.com/TechieTojin/Crop-Genie">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=TechieTojin&repo=Crop-Genie&theme=nord&border_color=00D9FF&title_color=00D9FF&icon_color=00D9FF&text_color=FFFFFF&bg_color=0D1117" alt="Crop-Genie repo card" />
+    <img src="https://opengraph.githubassets.com/1/TechieTojin/Crop-Genie" width="85%" alt="Crop-Genie repository" />
   </a>
 </p>
 
@@ -234,11 +234,11 @@ owners and staff run the business on.
 
 | Layer | Technology |
 | :--- | :--- |
-| Frontend | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="16" align="top" alt="" /> &nbsp;React · <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="16" align="top" alt="" /> &nbsp;TypeScript |
+| Primary Language | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="16" align="top" alt="" /> &nbsp;TypeScript |
+| Frontend | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="16" align="top" alt="" /> &nbsp;React · <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="16" align="top" alt="" /> &nbsp;HTML · <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="16" align="top" alt="" /> &nbsp;CSS |
 | Backend | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="16" align="top" alt="" /> &nbsp;Node.js · <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="16" align="top" alt="" /> &nbsp;Express · REST APIs |
-| Intelligence | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="16" align="top" alt="" /> &nbsp;Python · AI/ML · NLP |
-| Database | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="16" align="top" alt="" /> &nbsp;MongoDB · <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" width="16" align="top" alt="" /> &nbsp;Firebase |
-| Tooling | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="16" align="top" alt="" /> &nbsp;Docker · <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" width="16" align="top" alt="" /> &nbsp;Postman |
+| Intelligence | AI/ML · NLP |
+| Tooling | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="16" align="top" alt="" /> &nbsp;Git · <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" width="16" align="top" alt="" /> &nbsp;Postman · <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="16" align="top" alt="" /> &nbsp;VS Code |
 
 </div>
 
@@ -253,13 +253,13 @@ owners and staff run the business on.
 <!-- ─────────── PROJECT 3 ─────────── -->
 ### 🚌&nbsp; Bus-Reservation-System
 
-> **Comprehensive bus ticket booking and reservation management system.**
-> Seat inventory, booking flow and reservation management end to end — the project
-> where I learned how much of "simple CRUD" is actually state and edge cases.
+> **A comprehensive platform for managing bus services efficiently** — view available
+> buses, book tickets, cancel reservations and check booking status. Written in C: the
+> project where I learned how much of "simple CRUD" is actually state and edge cases.
 
 <p align="center">
   <a href="https://github.com/TechieTojin/Bus-Reservation-System">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=TechieTojin&repo=Bus-Reservation-System&theme=nord&border_color=00D9FF&title_color=00D9FF&icon_color=00D9FF&text_color=FFFFFF&bg_color=0D1117" alt="Bus-Reservation-System repo card" />
+    <img src="https://opengraph.githubassets.com/1/TechieTojin/Bus-Reservation-System" width="85%" alt="Bus-Reservation-System repository" />
   </a>
 </p>
 
@@ -267,17 +267,37 @@ owners and staff run the business on.
 
 | Layer | Technology |
 | :--- | :--- |
-| Frontend | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="16" align="top" alt="" /> &nbsp;HTML · <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="16" align="top" alt="" /> &nbsp;CSS · <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="16" align="top" alt="" /> &nbsp;JavaScript |
-| Backend | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="16" align="top" alt="" /> &nbsp;Node.js · <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="16" align="top" alt="" /> &nbsp;Express · REST APIs |
-| Database | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="16" align="top" alt="" /> &nbsp;MySQL |
-| API Testing | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" width="16" align="top" alt="" /> &nbsp;Postman |
-| Tooling | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="16" align="top" alt="" /> &nbsp;Git · <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="16" align="top" alt="" /> &nbsp;GitHub |
+| Language | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="16" align="top" alt="" /> &nbsp;C |
+| Interface | Console-based menu system |
+| Core Features | Bus listing · Ticket booking · Cancellation · Status check |
+| Data Handling | File-based persistence · Structs & arrays |
+| Tooling | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="16" align="top" alt="" /> &nbsp;Git · <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="16" align="top" alt="" /> &nbsp;GitHub · <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="16" align="top" alt="" /> &nbsp;VS Code |
 
 </div>
 
 <p align="center">
   <a href="https://github.com/TechieTojin/Bus-Reservation-System">
     <img src="https://img.shields.io/badge/Code-View%20Repository-00D9FF?style=for-the-badge&logo=github&logoColor=0D1117&labelColor=0D1117&color=00D9FF" alt="Code" />
+  </a>
+</p>
+
+<br/>
+
+<h3 align="center">📦 More From My 41 Repositories</h3>
+
+<div align="center">
+
+| Project | What it does | Stack |
+| :--- | :--- | :--- |
+| [**College-System**](https://github.com/TechieTojin/-College-System-) | Web app managing college operations — student registration, course management and grade tracking | HTML · CSS · JS |
+| [**LibraryManagementSystem**](https://github.com/TechieTojin/LibraryManagementSytem) | Automates library operations — user registration, login, book search and account management | HTML · CSS · JS |
+| [**Soccer-Game**](https://github.com/TechieTojin/-Soccer-Game) | A modern immersive AR/VR soccer experience | Python |
+
+</div>
+
+<p align="center">
+  <a href="https://github.com/TechieTojin?tab=repositories">
+    <img src="https://img.shields.io/badge/Browse%20all%2041%20repositories-00D9FF?style=for-the-badge&logo=github&logoColor=0D1117&labelColor=0D1117&color=00D9FF" alt="All repositories" />
   </a>
 </p>
 
