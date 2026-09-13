@@ -536,12 +536,10 @@ owners and staff run the business on.
 </p>
 
 <!-- ═══════════════ CONTRIBUTION CALENDAR ═══════════════ -->
-<h3 align="center">🔥 Contribution Calendar</h3>
+<h3 align="center">🐍 Contribution Graph</h3>
 
 <p align="center">
-  <a href="https://github.com/TechieTojin">
-    <img src="https://ghchart.rshah.org/00D9FF/TechieTojin" width="94%" alt="TechieTojin GitHub Contribution Calendar" />
-  </a>
+  <img src="https://raw.githubusercontent.com/TechieTojin/TechieTojin/output/snake-dark.svg" width="94%" alt="Contribution graph" />
 </p>
 
 <!-- ═══════════════ STREAK STATS ═══════════════ -->
