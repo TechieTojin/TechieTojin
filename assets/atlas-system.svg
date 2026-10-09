@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 340" fill="none">
+  <defs>
+    <linearGradient id="abg" x1="0" y1="0" x2="880" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#0a0c10"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="880" height="340" rx="8" fill="url(#abg)" stroke="#21262d" stroke-width="1"/>
+
+  <!-- Title -->
+  <text x="40" y="40" fill="#58a6ff" font-family="monospace" font-size="10" letter-spacing="2">ATLAS — RESEARCH INFRASTRUCTURE</text>
+
+  <!-- Pipeline nodes -->
+  <!-- Node: Question -->
+  <rect x="40" y="70" width="100" height="50" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="90" y="92" fill="#e6edf3" font-family="system-ui, sans-serif" font-size="11" font-weight="600" text-anchor="middle">Research</text>
+  <text x="90" y="107" fill="#6e7681" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle">Question</text>
+
+  <!-- Arrow 1 -->
+  <line x1="140" y1="95" x2="180" y2="95" stroke="#30363d" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+
+  <!-- Node: Planning -->
+  <rect x="180" y="70" width="100" height="50" rx="6" fill="#161b22" stroke="#58a6ff" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="230" y="92" fill="#e6edf3" font-family="system-ui, sans-serif" font-size="11" font-weight="600" text-anchor="middle">Planning</text>
+  <text x="230" y="107" fill="#58a6ff" font-family="monospace" font-size="9" text-anchor="middle" opacity="0.7">agent</text>
+
+  <!-- Arrow 2 -->
+  <line x1="280" y1="95" x2="320" y2="95" stroke="#30363d" stroke-width="1.5"/>
+
+  <!-- Node: Evidence -->
+  <rect x="320" y="70" width="100" height="50" rx="6" fill="#161b22" stroke="#58a6ff" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="370" y="92" fill="#e6edf3" font-family="system-ui, sans-serif" font-size="11" font-weight="600" text-anchor="middle">Evidence</text>
+  <text x="370" y="107" fill="#58a6ff" font-family="monospace" font-size="9" text-anchor="middle" opacity="0.7">gather</text>
+
+  <!-- Arrow 3 -->
+  <line x1="420" y1="95" x2="460" y2="95" stroke="#30363d" stroke-width="1.5"/>
+
+  <!-- Node: Critique -->
+  <rect x="460" y="70" width="100" height="50" rx="6" fill="#161b22" stroke="#58a6ff" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="510" y="92" fill="#e6edf3" font-family="system-ui, sans-serif" font-size="11" font-weight="600" text-anchor="middle">Critique</text>
+  <text x="510" y="107" fill="#58a6ff" font-family="monospace" font-size="9" text-anchor="middle" opacity="0.7">validate</text>
+
+  <!-- Arrow 4 -->
+  <line x1="560" y1="95" x2="600" y2="95" stroke="#30363d" stroke-width="1.5"/>
+
+  <!-- Node: Synthesis -->
+  <rect x="600" y="70" width="100" height="50" rx="6" fill="#161b22" stroke="#58a6ff" stroke-width="1" stroke-opacity="0.5"/>
+  <text x="650" y="92" fill="#e6edf3" font-family="system-ui, sans-serif" font-size="11" font-weight="600" text-anchor="middle">Synthesis</text>
+  <text x="650" y="107" fill="#58a6ff" font-family="monospace" font-size="9" text-anchor="middle" opacity="0.7">compose</text>
+
+  <!-- Arrow 5 -->
+  <line x1="700" y1="95" x2="740" y2="95" stroke="#30363d" stroke-width="1.5"/>
+
+  <!-- Node: Knowledge -->
+  <rect x="740" y="70" width="100" height="50" rx="6" fill="#161b22" stroke="#1f6feb" stroke-width="1.5"/>
+  <text x="790" y="92" fill="#e6edf3" font-family="system-ui, sans-serif" font-size="11" font-weight="600" text-anchor="middle">Knowledge</text>
+  <text x="790" y="107" fill="#58a6ff" font-family="monospace" font-size="9" text-anchor="middle" opacity="0.7">graph</text>
+
+  <!-- Feedback loop arrow -->
+  <path d="M 510 120 L 510 155 L 230 155 L 230 120" stroke="#30363d" stroke-width="1" fill="none" stroke-dasharray="4 3"/>
+  <text x="370" y="168" fill="#6e7681" font-family="monospace" font-size="9" text-anchor="middle">retry on validation failure</text>
+
+  <!-- Lower section: capabilities -->
+  <line x1="40" y1="195" x2="840" y2="195" stroke="#21262d" stroke-width="0.5"/>
+
+  <text x="40" y="225" fill="#8b949e" font-family="monospace" font-size="10" letter-spacing="1">CAPABILITIES</text>
+
+  <!-- Capability pills -->
+  <g font-family="system-ui, sans-serif" font-size="11">
+    <rect x="40" y="240" width="145" height="28" rx="14" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+    <text x="112" y="258" fill="#8b949e" text-anchor="middle">Citation provenance</text>
+
+    <rect x="195" y="240" width="140" height="28" rx="14" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+    <text x="265" y="258" fill="#8b949e" text-anchor="middle">Semantic memory</text>
+
+    <rect x="345" y="240" width="150" height="28" rx="14" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+    <text x="420" y="258" fill="#8b949e" text-anchor="middle">Cancel / restart safe</text>
+
+    <rect x="505" y="240" width="140" height="28" rx="14" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+    <text x="575" y="258" fill="#8b949e" text-anchor="middle">Cross-run diffing</text>
+
+    <rect x="655" y="240" width="135" height="28" rx="14" fill="#161b22" stroke="#30363d" stroke-width="0.5"/>
+    <text x="722" y="258" fill="#8b949e" text-anchor="middle">Knowledge graph</text>
+  </g>
+
+  <!-- Tech footer -->
+  <text x="40" y="310" fill="#484f58" font-family="monospace" font-size="10">React · TypeScript · Python · FastAPI · LangGraph · Ollama · SQLite</text>
+  <text x="840" y="310" fill="#30363d" font-family="monospace" font-size="10" text-anchor="end">private project</text>
+</svg>
