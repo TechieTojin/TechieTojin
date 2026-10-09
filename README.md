@@ -179,12 +179,24 @@ Atlas orchestrates cooperating agents through a five-stage pipeline — planning
 
 ---
 
+### Engineering Activity
+
+<sub>Building, learning, and improving — one commit at a time.</sub>
+
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=TechieTojin&theme=default&hide_border=true&border_radius=0&ring=2563EB&fire=7C3AED&currStreakLabel=475569&sideLabels=475569&dates=94A3B8&sideNums=0F172A&currStreakNum=0F172A&background=FFFFFF" alt="GitHub Streak" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=TechieTojin&theme=dark&hide_border=true&border_radius=4&ring=7C3AED&fire=A78BFA&currStreakLabel=94A3B8&sideLabels=94A3B8&dates=64748B&sideNums=E2E8F0&currStreakNum=E2E8F0&background=0D1117&stroke=1E293B" />
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=TechieTojin&theme=default&hide_border=true&border_radius=4&ring=2563EB&fire=7C3AED&currStreakLabel=475569&sideLabels=475569&dates=94A3B8&sideNums=0F172A&currStreakNum=0F172A&background=FFFFFF&stroke=E2E8F0" />
+    <img src="https://streak-stats.demolab.com?user=TechieTojin&theme=default&hide_border=true&border_radius=4&ring=2563EB&fire=7C3AED&currStreakLabel=475569&sideLabels=475569&dates=94A3B8&sideNums=0F172A&currStreakNum=0F172A&background=FFFFFF&stroke=E2E8F0" alt="GitHub Streak" />
+  </picture>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/TechieTojin/TechieTojin/output/snake-dark.svg" width="88%" alt="Contribution graph" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TechieTojin/TechieTojin/output/snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TechieTojin/TechieTojin/output/snake-light.svg" />
+    <img src="https://raw.githubusercontent.com/TechieTojin/TechieTojin/output/snake-dark.svg" width="100%" alt="Contribution graph animation" />
+  </picture>
 </p>
 
 ---
