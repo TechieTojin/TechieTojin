@@ -1,4 +1,4 @@
-<!-- TOJIN VARKEY SIMSON — ENGINEERING PORTFOLIO -->
+<!-- TOJIN VARKEY SIMSON — ENGINEERING PORTFOLIO V7 -->
 
 <p align="center">
   <img src="./assets/hero.svg" width="100%" alt="Tojin Varkey Simson — Software Engineer. Building reliable software, intelligent systems, and thoughtful experiences. Simplify3x Software, Bengaluru, India." />
@@ -14,19 +14,61 @@ Software Engineer at **Simplify3x Software**, Bengaluru. I build production web 
 
 Background in statistics and computer science. Published research in deepfake detection. Three first-place hackathon finishes. Currently interested in system design, AI-assisted tooling, and local-first architectures.
 
+<p align="center">
+  <img src="./assets/principles.svg" width="100%" alt="Engineering principles: Design for Clarity, Build for Reliability, Measure Before Optimizing, Own the Outcome." />
+</p>
+
 ---
 
-### Flagship Project
+### Selected Engineering Work
+
+<sub>Beyond shipping features — designing systems that are reliable, maintainable, and understandable.</sub>
+
+---
+
+#### Atlas — AI Research Infrastructure
 
 <p align="center">
   <img src="./assets/atlas-system.svg" width="100%" alt="Atlas — AI Research Infrastructure. Five-stage pipeline: Planning → Evidence → Critique → Synthesis → Knowledge Graph. With retry on validation failure. Built with React, TypeScript, Python, FastAPI, LangGraph, Ollama, SQLite." />
 </p>
 
-**Atlas** is a local-first AI research platform I built to solve three problems with existing tools: they lose state when they fail, they can't trace a generated claim back to its source, and they require a cloud connection.
+**Problem.** Existing AI research tools lose state on failure, can't trace generated claims to sources, and require cloud connectivity. I needed a system that could run entirely locally, maintain citation provenance, and persist research across sessions.
 
-Atlas orchestrates cooperating agents through a five-stage pipeline — planning, evidence gathering, critique, synthesis, and knowledge graph generation. Every claim is traced back to its source with deterministic validation; if validation fails, the pipeline retries from the critique stage rather than starting over. Research persists as a navigable knowledge graph with project-scoped semantic memory, and completed sessions can be compared side by side.
+**Engineering.** Atlas orchestrates a Planner, Researcher, Critic, and Synthesizer through a LangGraph workflow. The Critic validates each claim against its source; on failure, the pipeline loops back rather than restarting. Research accumulates in a SQLite database (WAL mode, versioned migrations) and surfaces as a navigable knowledge graph — both a deterministic project-level graph and per-run entity graphs validated against sources. Completed runs can be compared side by side. Additional features include document RAG, website chat with citations, and Markdown/PDF export.
 
-**Design decisions:** Local-first with SQLite for portability and offline use. Cancellation-safe — any stage can be interrupted and resumed without data loss. LangGraph for agent orchestration because it provides explicit state machines over implicit chain-of-thought. FastAPI for the service layer because research sessions are long-running and benefit from async I/O.
+**Key design decisions:**
+
+| Decision | Why | Alternative considered |
+|---|---|---|
+| Local-first with SQLite | Portability, offline use, single-file deployment | PostgreSQL — heavier, requires server process |
+| LangGraph for orchestration | Explicit state machines with conditional loops | Raw LangChain — less control over agent transitions |
+| FastAPI with SSE | Async I/O for long-running sessions, streaming progress | Flask — synchronous, would block during agent execution |
+| Ollama for inference | Fully local, no API keys, swappable models | Cloud APIs — faster, but introduces connectivity dependency |
+
+<sub>React · TypeScript · Python · FastAPI · LangGraph · Ollama · SQLite — <a href="https://github.com/TechieTojin/Atlas-AI">Repository →</a></sub>
+
+---
+
+#### Production Engineering — Case Study
+
+<sub>From my work at Simplify3x Software. No proprietary code or business logic is disclosed.</sub>
+
+<details>
+<summary><b>Client/Server State Synchronisation in a B2B Retail Platform</b></summary>
+<br/>
+
+**Problem.** Cart state diverged between React Native clients and Node.js services when users operated on unreliable mobile networks. Orders placed from stale local state produced incorrect quantities and pricing.
+
+**Constraints.** Could not require persistent connectivity. Had to preserve offline cart functionality. Multiple concurrent sessions per account.
+
+**Root cause.** Optimistic local updates were applied without version vectors. When a request failed silently, the client continued from a state the server had never acknowledged.
+
+**Solution.** Introduced request-level idempotency keys and server-authoritative state reconciliation on reconnect. Cart operations became compare-and-swap against a server version, with conflict resolution surfaced to the user rather than silently merged.
+
+**Validation.** Reproduced the failure under throttled network conditions. Verified that conflicting concurrent edits from two devices surface a clear resolution prompt instead of silent data loss.
+
+**Lessons.** Optimistic UI requires explicit rollback paths. Silent failure is worse than visible failure.
+</details>
 
 ---
 
@@ -36,7 +78,9 @@ Atlas orchestrates cooperating agents through a five-stage pipeline — planning
   <img src="./Crop-Genie.png" width="100%" alt="Crop-Genie — AI agricultural decision-support with health scoring, analytics charts, and mobile companion view" />
 </p>
 
-**Crop-Genie** — AI crop advisory for smallholder farmers. Cross-platform app designed for modest hardware and unreliable networks. Typed end-to-end with a React Native/Expo client and Python/Scikit-learn intelligence layer.
+**Crop-Genie** — AI crop advisory for smallholder farmers.
+<br/>**Problem:** Farmers with modest hardware and unreliable networks need accessible crop health guidance.
+<br/>**Engineering:** Cross-platform React Native/Expo client typed end-to-end, Python/Scikit-learn intelligence layer for crop health scoring and advisory generation.
 <br/><sub>React Native · Expo · TypeScript · Python · Scikit-learn — <a href="https://github.com/TechieTojin/Crop-Genie">Repository →</a></sub>
 
 <br/>
@@ -45,7 +89,9 @@ Atlas orchestrates cooperating agents through a five-stage pipeline — planning
   <img src="./FaceVerification.png" width="100%" alt="FaceVerification — real-time webcam face detection and identity verification" />
 </p>
 
-**Face Verification** — Real-time webcam identity verification using embedding-based matching, not pixel comparison. Swappable DeepFace backends for accuracy-vs-speed tuning.
+**Face Verification** — Real-time webcam identity verification.
+<br/>**Problem:** Identity verification systems that rely on pixel comparison are brittle under lighting and angle changes.
+<br/>**Engineering:** Embedding-based matching using DeepFace with swappable backends for accuracy-vs-speed tuning.
 <br/><sub>Python · OpenCV · DeepFace — <a href="https://github.com/TechieTojin/FaceVerification">Repository →</a></sub>
 
 <br/>
@@ -54,7 +100,9 @@ Atlas orchestrates cooperating agents through a five-stage pipeline — planning
   <img src="./Bus-Reservation-System.png" width="100%" alt="Bus Reservation System — console booking with seat map and route table" />
 </p>
 
-**Bus Reservation System** — Full booking lifecycle in C with file-backed persistence, seat inventory consistency, and manual memory management. No framework safety net.
+**Bus Reservation System** — Full booking lifecycle in C.
+<br/>**Problem:** Implement a complete reservation workflow — seat inventory, booking, cancellation — with file-backed persistence and no framework safety net.
+<br/>**Engineering:** Manual memory management, file I/O for state persistence, seat inventory consistency across operations.
 <br/><sub>C · File I/O · Data Structures — <a href="https://github.com/TechieTojin/Bus-Reservation-System">Repository →</a></sub>
 
 <details>

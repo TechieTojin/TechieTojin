@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 120" fill="none">
+  <rect width="480" height="120" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+
+  <g font-family="system-ui, sans-serif">
+    <!-- Principle 1 -->
+    <circle cx="60" cy="36" r="14" fill="#EFF6FF" stroke="#2563EB" stroke-width="0.8"/>
+    <text x="60" y="40" fill="#2563EB" font-size="12" font-weight="700" text-anchor="middle">✦</text>
+    <text x="60" y="60" fill="#0F172A" font-size="10" font-weight="600" text-anchor="middle">Clarity</text>
+    <text x="60" y="74" fill="#64748B" font-size="8" text-anchor="middle">Understandable</text>
+    <text x="60" y="84" fill="#64748B" font-size="8" text-anchor="middle">interfaces</text>
+
+    <!-- Principle 2 -->
+    <circle cx="180" cy="36" r="14" fill="#EFF6FF" stroke="#2563EB" stroke-width="0.8"/>
+    <text x="180" y="40" fill="#2563EB" font-size="12" font-weight="700" text-anchor="middle">◈</text>
+    <text x="180" y="60" fill="#0F172A" font-size="10" font-weight="600" text-anchor="middle">Reliability</text>
+    <text x="180" y="74" fill="#64748B" font-size="8" text-anchor="middle">Correct under</text>
+    <text x="180" y="84" fill="#64748B" font-size="8" text-anchor="middle">failure conditions</text>
+
+    <!-- Principle 3 -->
+    <circle cx="300" cy="36" r="14" fill="#F5F3FF" stroke="#7C3AED" stroke-width="0.8"/>
+    <text x="300" y="40" fill="#7C3AED" font-size="12" font-weight="700" text-anchor="middle">▲</text>
+    <text x="300" y="60" fill="#0F172A" font-size="10" font-weight="600" text-anchor="middle">Measurement</text>
+    <text x="300" y="74" fill="#64748B" font-size="8" text-anchor="middle">Evidence before</text>
+    <text x="300" y="84" fill="#64748B" font-size="8" text-anchor="middle">optimizing</text>
+
+    <!-- Principle 4 -->
+    <circle cx="420" cy="36" r="14" fill="#F5F3FF" stroke="#7C3AED" stroke-width="0.8"/>
+    <text x="420" y="40" fill="#7C3AED" font-size="12" font-weight="700" text-anchor="middle">○</text>
+    <text x="420" y="60" fill="#0F172A" font-size="10" font-weight="600" text-anchor="middle">Ownership</text>
+    <text x="420" y="74" fill="#64748B" font-size="8" text-anchor="middle">Testing, delivery,</text>
+    <text x="420" y="84" fill="#64748B" font-size="8" text-anchor="middle">maintainability</text>
+  </g>
+
+  <!-- Divider -->
+  <line x1="120" y1="20" x2="120" y2="96" stroke="#F1F5F9" stroke-width="0.8"/>
+  <line x1="240" y1="20" x2="240" y2="96" stroke="#F1F5F9" stroke-width="0.8"/>
+  <line x1="360" y1="20" x2="360" y2="96" stroke="#F1F5F9" stroke-width="0.8"/>
+
+  <text x="240" y="112" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="8" text-anchor="middle">design for clarity · build for reliability · measure before optimizing · own the outcome</text>
+</svg>

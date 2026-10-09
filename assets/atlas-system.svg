@@ -58,5 +58,5 @@
 
   <!-- Footer -->
   <text x="24" y="412" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="11">React · TypeScript · Python · FastAPI · LangGraph · Ollama · SQLite</text>
-  <text x="456" y="412" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="10" text-anchor="end">private project</text>
+  <text x="456" y="412" fill="#CBD5E1" font-family="system-ui, sans-serif" font-size="10" text-anchor="end">github.com/TechieTojin/Atlas-AI</text>
 </svg>
