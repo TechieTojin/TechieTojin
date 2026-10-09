@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" fill="none">
+  <defs>
+    <linearGradient id="rbg" x1="0" y1="0" x2="480" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B1120"/>
+      <stop offset="1" stop-color="#111D35"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="480" height="320" rx="12" fill="url(#rbg)" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- Stats row -->
+  <g font-family="system-ui, sans-serif" text-anchor="middle">
+    <text x="80" y="55" fill="#F59E0B" font-size="44" font-weight="800">3×</text>
+    <text x="80" y="78" fill="#94A3B8" font-size="14" font-weight="500">First Place</text>
+
+    <line x1="160" y1="28" x2="160" y2="90" stroke="#1E293B" stroke-width="1"/>
+
+    <text x="240" y="55" fill="#94A3B8" font-size="44" font-weight="800">1×</text>
+    <text x="240" y="78" fill="#94A3B8" font-size="14" font-weight="500">Second Place</text>
+
+    <line x1="320" y1="28" x2="320" y2="90" stroke="#1E293B" stroke-width="1"/>
+
+    <text x="400" y="55" fill="#6366F1" font-size="36" font-weight="800">Top</text>
+    <text x="400" y="78" fill="#94A3B8" font-size="14" font-weight="500">100 National</text>
+  </g>
+
+  <!-- Divider -->
+  <line x1="24" y1="105" x2="456" y2="105" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- Competition list — single column for mobile safety -->
+  <g font-family="system-ui, sans-serif">
+    <circle cx="40" cy="133" r="5" fill="#F59E0B"/>
+    <text x="56" y="138" fill="#F1F5F9" font-size="14" font-weight="500">InnovateX RHAPSODY — IISc</text>
+
+    <circle cx="40" cy="163" r="5" fill="#F59E0B"/>
+    <text x="56" y="168" fill="#F1F5F9" font-size="14" font-weight="500">Code Hunter — St. Joseph's University</text>
+
+    <circle cx="40" cy="193" r="5" fill="#F59E0B"/>
+    <text x="56" y="198" fill="#F1F5F9" font-size="14" font-weight="500">Hack-4-Mini 2.0</text>
+
+    <circle cx="40" cy="228" r="5" fill="#94A3B8"/>
+    <text x="56" y="233" fill="#F1F5F9" font-size="14" font-weight="500">AMUHACKS 4.0 — 2nd Place</text>
+
+    <circle cx="40" cy="258" r="5" fill="#6366F1"/>
+    <text x="56" y="263" fill="#F1F5F9" font-size="14" font-weight="500">HACKHAZARD 25 — Top 100</text>
+  </g>
+
+  <!-- Footer -->
+  <text x="240" y="305" fill="#334155" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle">5 hackathons across 2024–2025</text>
+</svg>

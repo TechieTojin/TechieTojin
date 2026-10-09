@@ -1,75 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 400" fill="none">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="960" y2="520" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0a0c10"/>
-      <stop offset="1" stop-color="#0d1117"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="480" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B1120"/>
+      <stop offset="0.5" stop-color="#111D35"/>
+      <stop offset="1" stop-color="#162044"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#58a6ff" stop-opacity="0.6"/>
-      <stop offset="1" stop-color="#1f6feb" stop-opacity="0.3"/>
+    <linearGradient id="accent-line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
     </linearGradient>
-    <linearGradient id="line-fade" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#30363d" stop-opacity="0"/>
-      <stop offset="0.2" stop-color="#30363d"/>
-      <stop offset="0.8" stop-color="#30363d"/>
-      <stop offset="1" stop-color="#30363d" stop-opacity="0"/>
-    </linearGradient>
+    <radialGradient id="orb1" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#3B82F6" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb2" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
   </defs>
 
-  <!-- Background -->
-  <rect width="960" height="520" fill="url(#bg)"/>
+  <rect width="480" height="400" fill="url(#bg)"/>
 
-  <!-- Subtle grid -->
-  <g stroke="#21262d" stroke-width="0.5" opacity="0.4">
-    <line x1="120" y1="0" x2="120" y2="520"/>
-    <line x1="240" y1="0" x2="240" y2="520"/>
-    <line x1="360" y1="0" x2="360" y2="520"/>
-    <line x1="480" y1="0" x2="480" y2="520"/>
-    <line x1="600" y1="0" x2="600" y2="520"/>
-    <line x1="720" y1="0" x2="720" y2="520"/>
-    <line x1="840" y1="0" x2="840" y2="520"/>
-    <line x1="0" y1="130" x2="960" y2="130"/>
-    <line x1="0" y1="260" x2="960" y2="260"/>
-    <line x1="0" y1="390" x2="960" y2="390"/>
-  </g>
+  <!-- Ambient orbs -->
+  <circle cx="380" cy="80" r="140" fill="url(#orb1)"/>
+  <circle cx="80" cy="340" r="120" fill="url(#orb2)"/>
 
-  <!-- Accent geometric: abstract node graph -->
-  <g opacity="0.12">
-    <circle cx="680" cy="120" r="60" stroke="#58a6ff" stroke-width="1" fill="none"/>
-    <circle cx="820" cy="200" r="40" stroke="#58a6ff" stroke-width="1" fill="none"/>
-    <circle cx="750" cy="320" r="50" stroke="#58a6ff" stroke-width="1" fill="none"/>
-    <circle cx="860" cy="380" r="30" stroke="#58a6ff" stroke-width="1" fill="none"/>
-    <line x1="680" y1="180" x2="750" y2="270" stroke="#58a6ff" stroke-width="0.8"/>
-    <line x1="820" y1="240" x2="750" y2="270" stroke="#58a6ff" stroke-width="0.8"/>
-    <line x1="750" y1="370" x2="860" y2="380" stroke="#58a6ff" stroke-width="0.8"/>
-    <circle cx="680" cy="120" r="4" fill="#58a6ff"/>
-    <circle cx="820" cy="200" r="3" fill="#58a6ff"/>
-    <circle cx="750" cy="320" r="4" fill="#58a6ff"/>
-    <circle cx="860" cy="380" r="3" fill="#58a6ff"/>
-  </g>
+  <!-- Floating surface (decorative, small) -->
+  <rect x="320" y="40" width="130" height="80" rx="10" fill="#1E293B" fill-opacity="0.5" stroke="#334155" stroke-width="0.6"/>
+  <rect x="335" y="55" width="50" height="6" rx="3" fill="#3B82F6" opacity="0.4"/>
+  <rect x="335" y="68" width="90" height="4" rx="2" fill="#334155"/>
+  <rect x="335" y="78" width="70" height="4" rx="2" fill="#334155"/>
+  <rect x="335" y="92" width="40" height="14" rx="5" fill="#3B82F6" fill-opacity="0.12" stroke="#3B82F6" stroke-width="0.5"/>
 
-  <!-- Coordinate labels -->
-  <text x="40" y="30" fill="#30363d" font-family="monospace" font-size="10">48.5°N 77.6°E</text>
-  <text x="860" y="510" fill="#30363d" font-family="monospace" font-size="10">BENGALURU</text>
+  <!-- Name -->
+  <text x="30" y="160" fill="#F1F5F9" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="48" font-weight="800" letter-spacing="-1">TOJIN</text>
+  <text x="30" y="210" fill="#F1F5F9" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="48" font-weight="800" letter-spacing="-1">VARKEY</text>
+  <text x="30" y="260" fill="#F1F5F9" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="48" font-weight="800" letter-spacing="-1">SIMSON</text>
 
-  <!-- Main typography -->
-  <text x="60" y="200" fill="#e6edf3" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="56" font-weight="700" letter-spacing="-2">TOJIN VARKEY</text>
-  <text x="60" y="265" fill="#e6edf3" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="56" font-weight="700" letter-spacing="-2">SIMSON</text>
-
-  <!-- Accent line -->
-  <rect x="60" y="290" width="80" height="3" rx="1.5" fill="#58a6ff"/>
+  <!-- Accent bar -->
+  <rect x="30" y="275" width="70" height="3" rx="1.5" fill="url(#accent-line)"/>
 
   <!-- Role -->
-  <text x="60" y="330" fill="#8b949e" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="16" font-weight="500" letter-spacing="3">SOFTWARE ENGINEER</text>
+  <text x="30" y="305" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="20" font-weight="500">Software Engineer</text>
 
-  <!-- Description -->
-  <text x="60" y="370" fill="#6e7681" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14">Product engineering across client, service, and data.</text>
-  <text x="60" y="392" fill="#6e7681" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14">Full-stack · Mobile · AI systems · Production reliability.</text>
+  <!-- Tagline -->
+  <text x="30" y="335" fill="#64748B" font-family="system-ui, sans-serif" font-size="16">Building reliable products, intelligent</text>
+  <text x="30" y="355" fill="#64748B" font-family="system-ui, sans-serif" font-size="16">systems, and seamless experiences.</text>
 
-  <!-- Company tag -->
-  <rect x="60" y="420" width="160" height="28" rx="4" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-  <text x="80" y="439" fill="#8b949e" font-family="monospace" font-size="11">@ Simplify3x</text>
-
-  <!-- Divider bottom -->
-  <rect x="0" y="517" width="960" height="3" fill="url(#line-fade)"/>
+  <!-- Company pill -->
+  <rect x="30" y="372" width="180" height="24" rx="6" fill="#1E293B" stroke="#334155" stroke-width="0.6"/>
+  <text x="120" y="389" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="13" text-anchor="middle">Simplify3x · Bengaluru</text>
 </svg>
