@@ -220,8 +220,8 @@ Background in statistics and computer science. Published research in deepfake de
 
 ### Education
 
-**Master of Computer Applications** — Christ University, Bangalore (2024–2026) · 8.2 CGPA
-<br/>**B.Sc. Statistics & Computer Science** — St. Joseph's University (2021–2024) · 7.5 CGPA
+**Master of Computer Applications** — Christ University, Bangalore (2024–2026)
+<br/>**B.Sc. Statistics & Computer Science** — St. Joseph's University (2021–2024) 
 
 **Student Coordinator** — Smart India Hackathon 2025. Coordinated across five university campuses.
 
